@@ -1,0 +1,13 @@
+*
+{
+    background-color: white;
+    color: black;
+}
+textarea
+{
+    width: 100%;
+}
+#idcanvas
+{
+    border: 1px solid black;
+}

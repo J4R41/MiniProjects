@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css.css">
+        <script src="js.js"></script>
+    </head>
+    <body>
+            <textarea onchange="draw();" id="text" rows="20"></textarea>
+            <br>
+            <textarea id="numbers_of_chars"></textarea>
+            <br>
+            <button onclick="draw();">Recode</button>
+            <br><br>
+            <canvas id="idcanvas" width="100" height="100">
+                Jak sie nie uda pojawi sie ten text
+            </canvas>
+            <br>
+            <button onclick="Download_img()">Download img</button>
+            <br>
+            <button onclick="onload_button()">Open onloading</button>
+            <div id="onload_div"></div>
+    </body>
+</html>
