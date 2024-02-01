@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Recoder</title>
+		<link rel="stylesheet" href="style.CTWK.css">
+		<script src="script.CTWK.new.js"></script>
+	</head>
+	<body>
+		<div id="divall"><center>
+			<!--<h1>Recoder:</h1>-->
+			<br>
+			<textarea id="intext" value="" rows="6" placeholder="Type text"></textarea>
+			<br>
+			<select id="pn_n">
+				<option value="+">+</option>
+				<option value="-">-</option>
+			</select>
+			<br>
+			<!--
+			<h1>chars:<br> ! a @ <br>do not encode correctly</h1>
+			! remake char to the same char
+			a and -@ remake small letters to big
+			@ and -a remake big letters to small
+			Eg:
+			a + ! = a
+			a - ! = a
+			a + a = A
+			A - a = a
+			a - @ = A
+			A + @ = a
+			-->
+			<textarea id="inkey" value="" rows="2" placeholder="Type key"  onchange="recode()"></textarea>
+			<br>
+			<input id="button" type="button" value="||" onClick="recode()"></h1>
+			<br>
+			<textarea id="outtext" value="" rows="6" placeholder="Recoded text"></textarea>
+			<br>
+			<textarea id="admin" value="" rows="1" placeholder="Acces password"></textarea>
+			<br><br>
+		</div></center>
+		</body>
+</html>

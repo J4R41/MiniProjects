@@ -1,0 +1,82 @@
+*
+{
+	font-family: consolas;
+	font-size:120%;
+	color: #6400ff;
+	background: #111111;
+}
+.divall
+{
+	width: 80%;
+	border-color: #ffffff;
+	border-width: 5px;
+	border-style: solid;
+}
+h1
+{
+	color: white;
+	background: rgba(255,255,255,0);
+}
+#intext
+{
+	font-size:100%;
+    font-size:14pt;
+	background: #111111;
+	border-color: #6400ff;
+	border-width: 2px;
+	display: inline-block;
+	width: 99%;
+}
+#pn_n
+{
+	width: 10%;
+	font-size:100%;
+    font-size: 130%;
+	color: white;
+	background: #111111;
+	border-color: #111111;
+	border-width: 2px;
+}
+#inkey
+{
+	width:60%;
+	font-size:100%;
+    font-size:14pt;
+	background: #111111;
+	border-color: #6400ff;
+	border-width: 2px;
+	display: inline-block;
+	width: 99%;
+}
+#button
+{
+	width: 20%;
+	font-size:100%;
+    font-size: 130%;
+	color: white;
+	background: #111111;
+	border-color: #6400ff;
+	border-width: 2px;
+}
+#outtext
+{
+	width:80%;
+	font-size:100%;
+    font-size:14pt;
+	background: #111111;
+	border-color: #6400ff;
+	border-width: 2px;
+	display: inline-block;
+	width: 99%;
+}
+#admin
+{
+	width:80%;
+	font-size:100%;
+    font-size:14pt;
+	background: #111111;
+	border-color: #6400ff;
+	border-width: 2px;
+	display: inline-block;
+	width: 99%;
+}
