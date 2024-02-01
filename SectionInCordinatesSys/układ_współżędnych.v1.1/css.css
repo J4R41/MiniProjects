@@ -1,0 +1,61 @@
+*
+{
+	background: black;
+	color: #6400ff;
+	font-family: monospace;
+}
+#text_x
+{
+	position: absolute;
+	left: 20%;
+	top: 10%;
+	width: 30%;
+	height: 10%;
+	background-color: #111111;
+	font-size: 120%;
+	border-color: #6400ff;
+}
+#text_y
+{
+	position: absolute;
+	left: 50%;
+	top: 10%;
+	width: 30%;
+	height: 10%;
+	background-color: #111111;
+	font-size: 120%;
+	border-color: #6400ff;
+}
+#buttonadd
+{
+	position: absolute;
+	left: 40%;
+	top: 25%;
+	width: 20%;
+	height: 5%;
+	background-color: #111111;
+	font-size: 120%;
+	border-color: #6400ff;
+}
+#points
+{
+	position: absolute;
+	left: 20%;
+	top: 40%;
+	width: 60%;
+	height: 10%;
+	background-color: #111111;
+	font-size: 120%;
+	border-color: #6400ff;
+}
+#buttonstart
+{
+	position: absolute;
+	left: 40%;
+	top: 60%;
+	width: 20%;
+	height: 10%;
+	background-color: #111111;
+	font-size: 120%;
+	border-color: #6400ff;
+}

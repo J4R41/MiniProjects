@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Cordinates system</title>
+		<link rel="stylesheet" href="css.css">
+		<script src="js.js"></script>
+	</head>
+	<body>
+		<div id="work_section"> </div> <!--another background here-->
+		<div class="div" id="w_h">
+			<textarea class="color" id="width" placeholder="width" onchange="main_test_f()"></textarea>
+			<textarea class="color" id="height" placeholder="height" onchange="main_test_f()"></textarea>
+		</div>
+		<div class="div" id="working_on_P">
+			<textarea class="color" id="x_of_point" placeholder="x"></textarea>
+			<textarea class="color" id="y_of_point" placeholder="y"></textarea>
+			<button class="color" id="add" onClick="add()">Add</button>
+			<textarea class="color" id="points" placeholder="points" ></textarea>
+		</div>
+		<div class="div" id="write_test">
+			<button class="color" id="write" onclick="main()">Write</button>
+			<button id="test" onclick="test()">Test</button>
+		</div>
+		<div class="div" id="working_on_S">
+			<button class="color" id="sectionsb" onclick="type_sections()">Type sections</button>
+			<textarea class="color" id="sectionst" placeholder="sections"></textarea>
+			
+			<textarea class="color" id="n_of_chars" placeholder="max chars"></textarea>
+			<textarea class="color" id="text_into_sn" placeholder="Text inside section (can't type multiple spaces and line-breaker)" onchange="max_chars()"></textarea>
+			<textarea class="color" id="colorid" placeholder="#8800ff"></textarea>
+			<textarea class="color" id="s_n" placeholder="Sn nr" onchange="max_chars()"></textarea>
+			<button class="color" id="sn_write" onclick="type_into_section()">Write in</button>
+		</div>
+		
+		<div id="export">
+			<button class="color" id="exportb" onclick="exprt()">Export as a div</button>
+			<textarea class="color" id="datatxt"></textarea>
+		</div>
+		
+		<div id="data"></div>
+		
+		<div id="comment">
+		To do:<br>
+		</div>
+	</body>
+</html>

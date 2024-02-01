@@ -1,0 +1,218 @@
+*
+{
+	color: #8800ff;
+	background-color: #000000;
+	font-family: monospace;
+}
+
+.div
+{
+	background-color: #000000;
+}
+.color
+{
+	border-color: #8800ff;
+	border-width: 4px;
+	background-color: #111111;
+}
+
+#comment
+{
+	position: absolute;
+	bottom: 0%;
+	right: 0%;
+	
+	width: 10%;
+	height: 100%;
+	
+	color: #00ffff;
+	font-size: 80%;
+	background-color: #880000;
+	opacity:0.9;
+}
+
+#work_section
+{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	
+	width: 200px;
+	height: 100%;
+	
+	background-color: #222222;
+}
+
+#w_h
+{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	
+	width: 200px;
+	height: 50px;
+}
+#width
+{
+	float: left;
+	
+	width: 88px;
+	height: 38px;
+}
+#height
+{
+	float: left;
+	
+	width: 88px;
+	height: 38px;
+}
+
+#working_on_P
+{
+	position: absolute;
+	top: 60px;
+	left: 0%;
+	
+	width: 200px;
+	height: 150px;
+}
+#x_of_point
+{
+	float: left;
+	
+	width: 58px;
+	height: 38px;
+}
+#y_of_point
+{
+	float: left;
+	
+	width: 58px;
+	height: 38px;
+}
+#add
+{
+	float: left;
+	
+	width: 60px;
+	height: 50px;
+}
+#points
+{
+	float: left;
+	
+	width: 188px;
+	height: 88px;
+}
+
+#write_test
+{
+	position: absolute;
+	top: 220px;
+	left: 0%;
+	
+	width: 200px;
+	height: 50px;
+}
+#write
+{
+	float: left;
+	
+	width: 140px;
+	height: 50px;
+}
+#test
+{
+	float: left;
+	
+	width: 60px;
+	height: 50px;
+	
+	border-color: red;
+	border-width: 4px;
+	background-color: #111111;
+	color: red;
+}
+
+#working_on_S
+{
+	position: absolute;
+	top: 280px;
+	left: 0%;
+	
+	width: 200px;
+	height: 300px;
+}
+#sectionsb
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	
+	width: 100px;
+	height: 50px;
+}
+#sectionst
+{
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	
+	width: 88px;
+	height: 238px;
+}
+#n_of_chars
+{
+	position: absolute;
+	top: 0px;
+	left: 100px;
+	
+	width: 88px;
+	height: 16px;
+}
+#text_into_sn
+{
+	position: absolute;
+	top: 28px;
+	left: 100px;
+	
+	width: 88px;
+	height: 180px;
+}
+#colorid
+{
+	position: absolute;
+	top: 220px;
+	left: 100px;
+	
+	width: 88px;
+	height: 18px;
+}
+#s_n
+{
+	position: absolute;
+	top: 250px;
+	left: 100px;
+	
+	width: 38px;
+	height: 38px;
+}
+#sn_write
+{
+	position: absolute;
+	top: 250px;
+	left: 150px;
+	
+	width: 50px;
+	height: 50px;
+}
+
+#data
+{
+	position: absolute;
+	top: 0px;
+	left: 205px;
+	
+	transform-origin: left top;
+	transform: scale(2, 0.66);
+}

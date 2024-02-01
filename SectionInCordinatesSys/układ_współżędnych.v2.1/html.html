@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Cordinates system</title>
+		<link rel="stylesheet" href="css.css">
+		<script src="js.js"></script>
+	</head>
+	<body>
+		<center>
+			<div id="w/h">
+				<textarea class="color" id="width" placeholder="width" onchange="main_test_f()"></textarea>
+				<textarea class="color" id="height" placeholder="height" onchange="main_test_f()"></textarea>
+			</div>
+			<div id="working_on_P">
+				<textarea class="color" id="x_of_point" placeholder="x"></textarea>
+				<textarea class="color" id="y_of_point" placeholder="y"></textarea>
+				<button class="color" id="add" onClick="add()">Add</button>
+				<textarea class="color" id="points" placeholder="points" ></textarea>
+			</div>
+			<div id="write/test">
+				<button id="test" onclick="test()">Test-set</button>
+				<button class="color" id="write" onclick="main()">Write</button>
+			</div>
+			<div id="working_on_S">
+				<button class="color" id="sectionsb" onclick="type_sections()">Type sections</button>
+				<textarea class="color" id="sectionst" placeholder="sections"></textarea>
+			</div>
+			
+			<div id="data"></div>
+		</center>
+	</body>
+</html>

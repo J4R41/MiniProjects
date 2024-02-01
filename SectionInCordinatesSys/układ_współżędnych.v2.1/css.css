@@ -1,0 +1,118 @@
+*
+{
+	color: #8800ff;
+	background-color: black;
+	font-family: monospace;
+}
+
+.color
+{
+	border-color: #8800ff;
+	border-width: 4px;
+	background-color: #111111;
+}
+
+#width
+{
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	
+	width: 20%;
+	height: 5%;
+}
+#height
+{
+	position: absolute;
+	top: 16%;
+	left: 10%;
+	
+	width: 20%;
+	height: 5%;
+}
+#x_of_point
+{
+	position: absolute;
+	top: 10%;
+	left: 40%;
+	
+	width: 10%;
+	height: 5%;
+}
+#y_of_point
+{
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	
+	width: 10%;
+	height: 5%;
+}
+#add
+{
+	position: absolute;
+	top: 16%;
+	left: 40%;
+	
+	width: 21%;
+	height: 7%;
+}
+#points
+{
+	position: absolute;
+	top: 23%;
+	left: 40%;
+	
+	width: 20%;
+	height: 20%;
+}
+#test
+{
+	position: absolute;
+	top: 25%;
+	left: 10%;
+	
+	width: 20%;
+	height: 10%;
+	
+	color: red;
+	background-color: #111111;
+	border-color: red;
+	border-width: 4px;
+}
+#write
+{
+	position: absolute;
+	top: 35%;
+	left: 10%;
+	
+	width: 20%;
+	height: 10%;
+}
+#data
+{
+	position: absolute;
+	top: 46%;
+	left: 10%;
+	
+	width: 70%;
+	height: 40%;
+}
+#sectionsb
+{
+	position: absolute;
+	top: 10%;
+	left: 70%;
+	
+	width: 21%;
+	height: 10%;
+}
+#sectionst
+{
+	position: absolute;
+	top: 20%;
+	left: 70%;
+	
+	width: 20%;
+	height: 23%;
+}
